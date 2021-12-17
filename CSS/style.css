@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Kumbh Sans", sans-serif;
 }
@@ -16,23 +20,30 @@ body {
   border-bottom: 1px solid hsl(220, 14%, 75%);
 }
 
-a {
+.link a {
   text-decoration: none;
   color: hsl(220, 14%, 75%);
   padding: 25px;
 }
 
-a:hover {
+.link a:hover {
   color: hsl(220, 13%, 13%);
   border-bottom: 3px solid hsl(26, 100%, 55%);
 }
+
 .cart {
   padding: 0 0 0 240px;
 }
-.image {
+
+.img {
   width: 50px;
   height: 50px;
   position: absolute;
   right: 110px;
   top: 10px;
-  
+}
+
+.img:hover {
+  border: 2px solid hsl(26, 100%, 55%);
+  border-radius: 30px;
+}
