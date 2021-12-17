@@ -12,10 +12,15 @@ body {
   border-bottom: 1px solid hsl(220, 14%, 75%);
 }
 
+.link {
+  margin: 0 0 0 50px;
+}
+
 .link a {
   text-decoration: none;
-  color: hsl(220, 14%, 75%);
-  padding: 25px;
+  color: hsl(219, 9%, 45%);
+  padding: 0 0 50px 15px;
+  font-size: 15px;
 }
 
 .link a:hover {
@@ -24,7 +29,7 @@ body {
 }
 
 .cart {
-  padding: 0 0 0 240px;
+  padding: 0 0px 0 400px;
 }
 
 .cart:hover {
@@ -48,30 +53,48 @@ body {
 .main {
   width: 70%;
   margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 
 .product {
-  height: 420px;
+  height: 400px;
   width: 45%;
-  margin: 50px 0;
+  margin: 60px 0;
   border-radius: 15px;
   float: left;
 }
 
 .about-product {
   float: right;
-  width: 45%;
+  width: 40%;
   padding: 70px 0 0 0;
 }
 
 h6 {
+  font-weight: bold;
   color: hsl(26, 100%, 55%);
-  font-weight: 150 important;
 }
 
 h1 {
+  font-weight: bolder;
   color: hsl(220, 13%, 13%);
-  font-weight: 200 important;
+}
+
+p {
+  color: hsl(219, 9%, 45%);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+h2 {
+  color: hsl(220, 13%, 13%);
+  font-weight: bolder;
+}
+
+h5 {
+  display: inline;
 }
 
 /*Footer*/
