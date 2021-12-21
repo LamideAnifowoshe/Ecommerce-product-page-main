@@ -32,3 +32,8 @@ nav {
 .thumbnail {
   border-radius: 8px;
 }
+
+h6 {
+  color: hsl(26, 100%, 55%);
+  font-size: 0.8rem;
+}
