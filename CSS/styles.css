@@ -20,3 +20,15 @@ nav {
   border: 2px solid hsl(26, 100%, 55%);
   border-radius: 30px;
 }
+
+.product {
+  border-radius: 15px;
+}
+
+.card {
+  border: none !important;
+}
+
+.thumbnail {
+  border-radius: 8px;
+}
