@@ -45,3 +45,15 @@ p {
 .carousel {
   width: 400px;
 }
+
+/*Footer*/
+.footer {
+    font-size: 11px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 500px;
+  }
+  .footer a {
+    color: hsl(228, 45%, 44%);
+  }
