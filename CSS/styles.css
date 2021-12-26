@@ -41,3 +41,7 @@ h6 {
 p {
   color: hsl(220, 14%, 75%);
 }
+
+.carousel {
+  width: 400px;
+}
